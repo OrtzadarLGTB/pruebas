@@ -1,0 +1,11 @@
+*{	
+	-webkit-filter: grayscale(100%);
+	-webkit-transition: 5s linear;
+	-moz-filter: grayscale(100%);
+	-moz-transition: 5s linear;
+	filter: grayscale(100%);
+}
+body > main > p > a:hover {
+	filter: grayscale(0%);
+	color:blue;
+}

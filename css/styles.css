@@ -1,0 +1,93 @@
+/* === ASPECTOS GENERALES === */
+*{
+	margin: 0 auto;
+	padding: 0px;
+}
+a:link,a:visited,a:hover{
+	text-decoration:none;
+}
+/* Cuerpo de la p?ina */
+body{
+	max-width:960px;
+	padding-right:0px;
+	background-color: #ffe6cc;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+/* Cabecera */
+body > header{
+	width:100%;
+	position: relative;
+}
+body > header > a > img{
+	max-height:60px;
+	min-height:30px;
+	min-width: 69.45px;
+	width:14.47%;
+	float:left;
+	margin:5px;
+}
+body > header > a > h2{
+	font-size:2em;
+	float:left;
+	position:absolute;
+	bottom:20px;
+	left: calc(14.47% + 10px);
+	color: #fff;
+}
+body > header > nav{
+	height: 20px;
+	clear: both;
+	background-color:#ccf;
+}
+body > header > nav > ul{
+	height:100%;
+	text-align:center;
+}
+body > header > nav > ul > li{
+	height:100%;
+	list-style-type: none;
+	display:inline;
+}
+body > header > nav > ul > li > a > button {
+	height:100%;
+	width:15%;
+	border:none;
+	border-radius:none;
+	background-color: transparent;
+	font-weight: lighter;
+	font-size:1rem;
+}
+body > header > nav > ul > li > a > button:hover{
+	height:100%;
+	background-color: #000;
+	color: #fff;
+	height:100%;
+}
+/* Contenido principal*/
+body > main{
+	width: calc(100% - 180px);
+	float:left;
+}
+/* Barra lateral, redes sociales */
+body > aside{
+	width:18.75%;
+	float:left;
+}
+body > aside > a{
+	margin-right: 10px;
+	width: 50px;
+}
+/* Pie de p?ina */
+body > footer {
+	width: -webkit-calc(100% - 4px);
+	width: -moz-calc(100% - 4px);
+	width: calc(100% - 4px);
+	padding:2px;
+	clear: both;
+	background-color: #ecb3ff;
+	border-bottom-radius: 5px;
+}
+/* ========================== */
+/* ====== POR PANTALLA ====== */
+/* ========================== */
