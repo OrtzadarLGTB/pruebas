@@ -2,7 +2,7 @@
 <html lang="es-ES">
 	<head>
 		<?php include 'includes/elementoHead.php' ?>		
-		<title>Error 404</title>
+		<title>Error 403</title>
 		<meta name="description" content="">
 		<meta name="keywords" content="">
 	</head>
@@ -15,9 +15,9 @@
 					<source src="/sound.ogg" type="audio/ogg">
 					<source src="/sound.mp3" type="audio/mp3">
 				</audio>
-				<h1>¡Ups! Error 404</h1>
-				<h2>La página o recurso solicitado no existe</h2>		
-				<p>Lamentamos mucho esto... ¿Quieres volver a la <a href=".">página principal</a>?</p>
+				<h1>¡Ups! Error 403</h1>
+				<h2>Acceso prohibido</h2>		
+				<p>Lamentamos mucho esto, el recurso es inaccesible... ¿Quieres volver a la <a href="..">página principal</a>?</p>
 				<br>
 			</main>		
 			<?php include 'includes/elementoAside.php' ?>
